@@ -7,6 +7,8 @@ The code in this repository was Tested in a Salesforce org and shared here to he
 
 The sample is implemented using below Salesforce components available in Lightning Component library.
 
+https://user-images.githubusercontent.com/11839381/124378111-861fbf80-dc64-11eb-917e-997527013c03.mov
+
 ## Lightning TabSet
 
 For the above example, the code was taken from below lightning component sample from salesforce.
