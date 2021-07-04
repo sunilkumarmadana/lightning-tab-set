@@ -1,18 +1,30 @@
-# Salesforce DX Project: Next Steps
+# Salesforce Lightning Tabset with Events
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+[![sfdcdreamer.com](https://img.shields.io/badge/made%20by-DHTMLX-blue)](https://sfdcdreamer/)
 
-## How Do You Plan to Deploy Your Changes?
+This project gives a head-start to show how a lightning component can share content from tab to another using Lightning events.
+The code in this repository was Tested in a Salesforce org and shared here to help other developers.
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+The sample is implemented using below Salesforce components available in Lightning Component library.
 
-## Configure Your Salesforce DX Project
+## Lightning TabSet
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+For the above example, the code was taken from below lightning component sample from salesforce.
+https://developer.salesforce.com/docs/component-library/bundle/lightning:tabset/example
+## Lightning Components/Application Events
 
-## Read All About It
+For the above example, the code was taken from below lightning component sample from salesforce.
+https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/events_component_example.htm
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+## Prerequisites
+
+## How to start
+## How to configure / modify
+### Backend
+
+### Frontend
+
+### Version
+## Related resources
+
+## Support
