@@ -1,0 +1,21 @@
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
+    
+    <aura:registerEvent name="cmpEvent" type="c:AuraTabSetEvt"/>
+    <aura:handler name="cmpEvent" event="c:AuraTabSetEvt" action="{!c.handleComponentEvent}"/>
+    
+    <aura:attribute name="messageFromEvent" type="String"/>
+    <lightning:tabset variant="scoped">
+        <lightning:tab id="tabOne" label="Item One" onactive="{! c.handleActive }">
+            <lightning:input aura:id="searchText" name="input1" label="Enter some text" />
+            <lightning:input aura:id="searchCheckBox" type="checkbox" label="Basic option" name="input1"/>
+            <lightning:input aura:id="searchDate" type="date" name="input1" label="Enter a date" />
+        </lightning:tab>
+        <lightning:tab id="tabTwo" label="Item Two" onactive="{! c.handleActive }">
+            <pre><code>{!v.messageFromEvent}</code></pre>
+            Two Content !
+        </lightning:tab>
+        <lightning:tab id="tabThree" label="Item Three" onactive="{! c.handleActive }">
+            Three Content !
+        </lightning:tab>
+    </lightning:tabset>
+</aura:component>
