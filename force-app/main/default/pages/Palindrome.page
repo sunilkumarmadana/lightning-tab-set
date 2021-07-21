@@ -1,0 +1,31 @@
+<apex:page controller="PalindromeController" docType="html-5.0">
+    <script>
+    	function checkPalindrome() {
+            let inputStr = document.getElementById('inputLabel').value.toLowerCase();
+            inputStr = inputStr.replace(/[^a-zA-Z0-9]/g, '');
+            
+            let output;
+
+            let stringArr = inputStr.split('');
+            stringArr = stringArr.filter(function(entry) { return entry.trim() != ''; });
+            
+            let reverseStr = stringArr.reverse().join('').toLowerCase();
+            
+            if( inputStr == reverseStr ) {
+                output = "It is a palindrome";
+            } else {
+                output = "It is not a palindrome";
+            }
+            
+            document.getElementById('outputString').innerHTML = output;
+        }
+    </script>
+    <input type="text" id="inputLabel" value="" />
+    <button onclick="checkPalindrome()">Check Palindrome</button>
+    <div id="outputString" style="font-weight: 25px;"></div>
+    <!--<apex:form>
+        <apex:inputText value="{!palindromeTxt}" label="Enter input" />
+        <apex:commandButton value="Check Palindrome" action="{!checkPalindrome}" />
+        <div style="font-weight: 25px;">{!palindromeResult}</div>
+    </apex:form>-->
+</apex:page>
